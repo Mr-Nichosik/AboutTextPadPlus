@@ -363,3 +363,45 @@
     left: 260px;
     top:  320px;
 }
+
+#tp18{
+    background-color: #209b72f6;
+    color: #ffffff;
+    padding: 11px;
+    margin: 5px;
+    opacity: 0.9;
+    width: 200px;
+    text-align: center;
+    
+    position: relative;
+    top: 360px;
+    left: 12px;
+}
+#tp18about{
+    color: #1350d3;
+    position: relative;
+    font-size: 20px;
+    left: 260px;
+    top:  340px;
+}
+
+#tp19{
+    background-color: #209b72f6;
+    color: #ffffff;
+    padding: 11px;
+    margin: 5px;
+    opacity: 0.9;
+    width: 200px;
+    text-align: center;
+    
+    position: relative;
+    top: 380px;
+    left: 12px;
+}
+#tp19about{
+    color: #1350d3;
+    position: relative;
+    font-size: 20px;
+    left: 260px;
+    top:  360px;
+}
