@@ -1,28 +1,67 @@
-#site-name{
-    background-color:#14bb46f6;
-    height: 55px;
-    font-size: 45px;
+
+* {
+	margin: 0;
+	padding: 0;
 }
-#rus{
-    font-size: 20px;
+
+header {
+    background-color: #5CDB95;
+    height: 65px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #05386B;
+}
+
+body, html {
+    height: 100%;
+    background-color: #EDF5E1;
+}
+
+footer {
+    background-color: #5CDB95;  
+    bottom: 100%;
+    width: 100%;
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+#siteName{
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 1%;
+    left: 50%;
+    text-decoration: none;
 }
-#textpad{
-    position: relative;
-    top: 35px;
+#Main{
+    font-size: 28px;
+    position: absolute;
+    top: 1%;
+    left: 35%;
+    text-decoration: none;
+}
+#Downloads{
+    font-size: 28px;
+    position: absolute;
+    top: 1%;
+    left: 65%;
+    text-decoration: underline;
+}
+
+#Description{
+    position: absolute;
+    top: 115px;
     left: 100px;
-    font-size: 32px;
-    color: #1350d3;
+    font-size: 22px;
+    color: #05386B;;
 }
-#logo1{
-    position: relative;
-    top: -20px;
-    left: 15px;
+#ProgramLogo{
+    position: absolute;
+    top: 120px;
+    left: 5px;
 }
 #mainpage{
-    position: relative;
+    position: absolute;
     top: -130px;
     left: 630px;
     font-size: 20px
@@ -34,19 +73,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 40px;
-    left: -160px;
+    position: absolute;
+    top: 20%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp01about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 21%;
     font-size: 20px;
-    left: 260px;
-    top:  20px;
+        left: 15%;
 }
 
 #tp03{
@@ -55,19 +95,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 60px;
+    position: absolute;
+    top: 25%;
     left: 14px;
+    text-decoration: none;
 }
 #tp03about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 26%;
     font-size: 20px;
-    left: 260px;
-    top:  40px;
+        left: 15%;
 }
 
 #tp04{
@@ -76,19 +117,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 80px;
+    position: absolute;
+    top: 30%;
     left: 14px;
+    text-decoration: none;
 }
 #tp04about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 31%;
     font-size: 20px;
-    left: 260px;
-    top:  60px;
+        left: 15%;
 }
 
 #tp05{
@@ -97,19 +139,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 100px;
+    position: absolute;
+    top: 35%;
     left: 14px;
+    text-decoration: none;
 }
 #tp05about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 36%;
     font-size: 20px;
-    left: 260px;
-    top:  80px;
+    left: 15%;
 }
 
 #tp06{
@@ -118,19 +161,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 120px;
+    position: absolute;
+    top: 40%;
     left: 14px;
+    text-decoration: none;
 }
 #tp06about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 41%;
     font-size: 20px;
-    left: 260px;
-    top:  100px;
+        left: 15%;
 }
 
 #tp07{
@@ -139,19 +183,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 140px;
+    position: absolute;
+    top: 45%;
     left: 14px;
+    text-decoration: none;
 }
 #tp07about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 46%;
     font-size: 20px;
-    left: 260px;
-    top:  120px;
+        left: 15%;
 }
 
 #tp08{
@@ -160,19 +205,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 160px;
+    position: absolute;
+    top: 50%;
     left: 14px;
+    text-decoration: none;
 }
 #tp08about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 51%;
     font-size: 20px;
-    left: 260px;
-    top:  140px;
+        left: 15%;
 }
 
 #tp09{
@@ -181,19 +227,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 180px;
+    position: absolute;
+    top: 55%;
     left: 14px;
+    text-decoration: none;
 }
 #tp09about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 56%;
     font-size: 20px;
-    left: 260px;
-    top:  160px;
+        left: 15%;
 }
 
 #tp10{
@@ -202,19 +249,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 200px;
-    left: 5px;
+    position: absolute;
+    top: 60%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp10about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 61%;
     font-size: 20px;
-    left: 260px;
-    top:  180px;
+        left: 15%;
 }
 
 #tp11{
@@ -223,19 +271,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 220px;
-    left: 5px;
+    position: absolute;
+    top: 65%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp11about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 66%;
     font-size: 20px;
-    left: 260px;
-    top:  200px;
+        left: 15%;
 }
 
 #tp12{
@@ -244,19 +293,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 240px;
-    left: 5px;
+    position: absolute;
+    top: 70%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp12about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 71%;
     font-size: 20px;
-    left: 260px;
-    top:  220px;
+        left: 15%;
 }
 
 #tp13{
@@ -265,19 +315,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 260px;
-    left: 5px;
+    position: absolute;
+    top: 75%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp13about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 76%;
     font-size: 20px;
-    left: 260px;
-    top:  240px;
+        left: 15%;
 }
 
 #tp14{
@@ -286,19 +337,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 280px;
-    left: 12px;
+    position: absolute;
+    top: 80%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp14about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 81%;
     font-size: 20px;
-    left: 260px;
-    top:  260px;
+        left: 15%;
 }
 
 #tp15{
@@ -307,19 +359,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 300px;
-    left: 12px;
+    position: absolute;
+    top: 85%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp15about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 86%;
     font-size: 20px;
-    left: 260px;
-    top:  280px;
+        left: 15%;
 }
 
 #tp16{
@@ -328,19 +381,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 320px;
-    left: 12px;
+    position: absolute;
+    top: 90%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp16about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 91%;
     font-size: 20px;
-    left: 260px;
-    top:  300px;
+        left: 15%;
 }
 
 #tp17{
@@ -349,19 +403,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 340px;
-    left: 12px;
+    position: absolute;
+    top: 95%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp17about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 96%;
     font-size: 20px;
-    left: 260px;
-    top:  320px;
+        left: 15%;
 }
 
 #tp18{
@@ -370,19 +425,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 360px;
-    left: 12px;
+    position: absolute;
+    top: 100%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp18about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 101%;
     font-size: 20px;
-    left: 260px;
-    top:  340px;
+        left: 15%;
 }
 
 #tp19{
@@ -391,19 +447,20 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 380px;
-    left: 12px;
+    position: absolute;
+    top: 105%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp19about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 106%;
     font-size: 20px;
-    left: 260px;
-    top:  360px;
+        left: 15%;
 }
 
 #tp20{
@@ -412,17 +469,18 @@
     padding: 11px;
     margin: 5px;
     opacity: 0.9;
-    width: 200px;
+    width: 230px;
     text-align: center;
     
-    position: relative;
-    top: 400px;
-    left: 12px;
+    position: absolute;
+    top: 110%;
+    left: 14px;
+    text-decoration: none;
 }
 #tp20about{
     color: #1350d3;
-    position: relative;
+    position: absolute;
+    top: 111%;
     font-size: 20px;
-    left: 260px;
-    top:  380px;
+        left: 15%;
 }
