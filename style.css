@@ -484,3 +484,47 @@ footer {
     font-size: 20px;
         left: 15%;
 }
+
+#tp21{
+    background-color: #209b72f6;
+    color: #ffffff;
+    padding: 11px;
+    margin: 5px;
+    opacity: 0.9;
+    width: 230px;
+    text-align: center;
+    
+    position: absolute;
+    top: 115%;
+    left: 14px;
+    text-decoration: none;
+}
+#tp21about{
+    color: #1350d3;
+    position: absolute;
+    top: 116%;
+    font-size: 20px;
+        left: 15%;
+}
+
+#tp22{
+    background-color: #209b72f6;
+    color: #ffffff;
+    padding: 11px;
+    margin: 5px;
+    opacity: 0.9;
+    width: 230px;
+    text-align: center;
+    
+    position: absolute;
+    top: 120%;
+    left: 14px;
+    text-decoration: none;
+}
+#tp22about{
+    color: #1350d3;
+    position: absolute;
+    top: 121%;
+    font-size: 20px;
+        left: 15%;
+}
