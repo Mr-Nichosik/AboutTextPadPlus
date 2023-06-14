@@ -1,4 +1,4 @@
-
+/* Основной стиль как для всей страницы, так и для отдельных крупных элементов */
 * {
 	margin: 0;
 	padding: 0;
@@ -8,7 +8,7 @@ header {
     background-color: #5CDB95;
     height: 65px;
     font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #05386B;
 }
 
@@ -27,504 +27,333 @@ footer {
     width: 100%;
     height: 80px;
 }
-#siteName{
+
+/*Стили для всех тегов <a>*/
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Стили только для тегов класса Button*/
+.Button{
+    background-color: #209b72f6;
+    color: #EDF5E1;
+    font-weight: 500;
+    padding: 11px;
+    margin: 5px;
+    opacity: 0.9;
+    text-decoration: none;
+    width: 235px;
+}
+.Button:hover{
+    color: #e8fccb;
+}
+.Button:active{
+    color: #ffffff;
+}
+
+/*Стили для простых ссылок*/
+.link{
+    color: #05386B;
+}
+.link:hover{
+    color: #0e5caa;
+}
+.link:active{
+    color: #379683;
+}
+
+/* Стили для тегов с описанием версий */
+.VersionDescription{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18.5px;
+    color: #0e5caa;
+}
+
+/* Стили для кнопок , расположенных в header'е */
+#SiteName{
     position: absolute;
-    top: 1%;
+    top: 0.5%;
     left: 50%;
     text-decoration: none;
 }
 #Main{
     font-size: 28px;
     position: absolute;
-    top: 1%;
+    top: 1.5%;
     left: 35%;
-    text-decoration: none;
+    text-decoration: underline;
 }
 #Downloads{
     font-size: 28px;
     position: absolute;
-    top: 1%;
+    top: 1.5%;
     left: 65%;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-#Description{
-    position: absolute;
-    top: 115px;
-    left: 100px;
-    font-size: 22px;
-    color: #05386B;;
-}
+/* Стили основной страницы */
 #ProgramLogo{
     position: absolute;
-    top: 120px;
-    left: 5px;
+    top: 10%;
+    left: 1%;
 }
-#mainpage{
+#Description{
     position: absolute;
-    top: -130px;
-    left: 630px;
-    font-size: 20px
+    top: 9%;
+    left: 5%;
+    color: #05386B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+}
+#GitHubSource{
+    position: absolute;
+    top: 15%;
+    left: 75.4%;
+    font-size: 21px;
 }
 
+/* Кнопки */
 #tp01{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 20%;
     left: 14px;
-    text-decoration: none;
 }
 #tp01about{
-    color: #1350d3;
     position: absolute;
-    top: 21%;
-    font-size: 20px;
-        left: 15%;
+    top: 21%; 
+    left: 15%;
 }
 
-#tp03{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
+#tp03{ 
     position: absolute;
     top: 25%;
     left: 14px;
-    text-decoration: none;
 }
 #tp03about{
-    color: #1350d3;
     position: absolute;
-    top: 26%;
-    font-size: 20px;
-        left: 15%;
+    top: 26%;  
+    left: 15%;
 }
 
-#tp04{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
+#tp04{   
     position: absolute;
     top: 30%;
     left: 14px;
-    text-decoration: none;
 }
 #tp04about{
-    color: #1350d3;
     position: absolute;
     top: 31%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
-#tp05{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
+#tp05{  
     position: absolute;
     top: 35%;
     left: 14px;
-    text-decoration: none;
 }
 #tp05about{
-    color: #1350d3;
     position: absolute;
     top: 36%;
-    font-size: 20px;
     left: 15%;
 }
 
 #tp06{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 40%;
     left: 14px;
-    text-decoration: none;
 }
-#tp06about{
-    color: #1350d3;
+#tp06about{ 
     position: absolute;
-    top: 41%;
-    font-size: 20px;
-        left: 15%;
+    top: 41%;   
+    left: 15%;
 }
 
 #tp07{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 45%;
     left: 14px;
-    text-decoration: none;
 }
-#tp07about{
-    color: #1350d3;
+#tp07about{  
     position: absolute;
-    top: 46%;
-    font-size: 20px;
-        left: 15%;
+    top: 46%; 
+    left: 15%;
 }
 
 #tp08{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 50%;
     left: 14px;
     text-decoration: none;
 }
 #tp08about{
-    color: #1350d3;
     position: absolute;
     top: 51%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp09{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 55%;
     left: 14px;
-    text-decoration: none;
 }
-#tp09about{
-    color: #1350d3;
+#tp09about{  
     position: absolute;
     top: 56%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp10{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 60%;
     left: 14px;
-    text-decoration: none;
 }
-#tp10about{
-    color: #1350d3;
+#tp10about{    
     position: absolute;
     top: 61%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp11{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 65%;
     left: 14px;
-    text-decoration: none;
 }
-#tp11about{
-    color: #1350d3;
+#tp11about{  
     position: absolute;
-    top: 66%;
-    font-size: 20px;
-        left: 15%;
+    top: 65%;
+    left: 15%;
 }
 
 #tp12{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 70%;
     left: 14px;
-    text-decoration: none;
 }
 #tp12about{
-    color: #1350d3;
     position: absolute;
     top: 71%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp13{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 75%;
     left: 14px;
-    text-decoration: none;
 }
-#tp13about{
-    color: #1350d3;
+#tp13about{ 
     position: absolute;
     top: 76%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp14{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 80%;
     left: 14px;
-    text-decoration: none;
 }
-#tp14about{
-    color: #1350d3;
+#tp14about{ 
     position: absolute;
     top: 81%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp15{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 85%;
     left: 14px;
-    text-decoration: none;
 }
-#tp15about{
-    color: #1350d3;
+#tp15about{  
     position: absolute;
     top: 86%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp16{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 90%;
     left: 14px;
-    text-decoration: none;
 }
 #tp16about{
-    color: #1350d3;
     position: absolute;
     top: 91%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp17{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 95%;
     left: 14px;
-    text-decoration: none;
 }
 #tp17about{
-    color: #1350d3;
     position: absolute;
     top: 96%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp18{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
     
     position: absolute;
     top: 100%;
     left: 14px;
-    text-decoration: none;
 }
-#tp18about{
-    color: #1350d3;
+#tp18about{  
     position: absolute;
     top: 101%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp19{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
     
     position: absolute;
     top: 105%;
     left: 14px;
-    text-decoration: none;
 }
-#tp19about{
-    color: #1350d3;
+#tp19about{   
     position: absolute;
     top: 106%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
-#tp20{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
+#tp20{   
     position: absolute;
     top: 110%;
     left: 14px;
-    text-decoration: none;
 }
 #tp20about{
-    color: #1350d3;
     position: absolute;
     top: 111%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp21{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 115%;
     left: 14px;
-    text-decoration: none;
 }
 #tp21about{
-    color: #1350d3;
     position: absolute;
     top: 116%;
-    font-size: 20px;
-        left: 15%;
+    left: 15%;
 }
 
 #tp22{
-    background-color: #209b72f6;
-    color: #ffffff;
-    padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
-    width: 230px;
-    text-align: center;
-    
     position: absolute;
     top: 120%;
     left: 14px;
-    text-decoration: none;
 }
 #tp22about{
-    color: #1350d3;
     position: absolute;
-    top: 121%;
-    font-size: 20px;
-        left: 15%;
+    top: 119.6%;
+    left: 15%;
+}
+
+#tp221{
+    position: absolute;
+    top: 125%;
+    left: 14px;
+}
+#tp221about{
+    position: absolute;
+    top: 125.3%;
+    left: 15%;
 }

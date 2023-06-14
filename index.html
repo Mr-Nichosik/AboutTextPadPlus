@@ -8,75 +8,81 @@
 </head>
 <body>
     <header>
-        <a id=siteName href="https://mr-nichosik.github.io/Main_Page/"><center>TextPad+</center></a>
-        <a id=Main href="https://mr-nichosik.github.io/Main_Page/"><center>Главная</center></a>
-        <a id=Downloads href="https://mr-nichosik.github.io/AboutTextPadPlus/"><center>Загрузки</center></a>
+        <a class="link" id=SiteName href="https://mr-nichosik.github.io/Main_Page/"><center>TextPad+</center></a>
+        <a class="link" id=Main href="https://mr-nichosik.github.io/Main_Page/"><center>Главная</center></a>
+        <a class="link" id=Downloads href="https://mr-nichosik.github.io/AboutTextPadPlus/"><center>Загрузки</center></a>
     </header>
     
     <img id="ProgramLogo" src="res\TextPadLogo.png" height="60">
-    <div id="Description"><font face="Calibri">Ключевые особенности: наличие вкладок, возможна работа с несколькими файлами параллельно; английская локализация; дополнительные инструменты для запуска некоторых форматов файлов; маленький размер самой программы, но требуется установленная библиотека .Net Runtime</font></div>
+    <div id="Description">
+        Ключевые особенности: наличие вкладок, возможна работа с несколькими файлами параллельно; английская локализация; дополнительные инструменты для запуска некоторых форматов файлов; маленький размер самой программы, но требуется установленная библиотека .NET Runtime. При запуске установщика программы, Windows, скорее всего, выдаст ошибку о том, что программа небезопасна. Вы можете проигнорировать это, так как весь исходный код программы доступен на GitHub:
+    </div>
+    <a class="link" id="GitHubSource" target="_blank" href="https://github.com/Mr-Nichosik/TextPadPlus">Исходный код программы на GitHub</a>
     
-    <a id="tp01" href="res\Setup WF TextPad.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 0.1 Beta</strong></font></a><br>
-    <div id="tp01about"><font face="Calibri">Первая пробная версия программы TextPad. Простейший текстовый редактор.</font></div>
+    <a class="Button" id="tp01" href="res\Setup WF TextPad.exe" target="_blank" download="">Скачать WF TextPad 0.1 Beta</a>
+    <div class="VersionDescription" id="tp01about">Первая пробная версия программы WF TextPad. Простейший текстовый редактор.</div>
 
-    <a id="tp03" href="res\Setup WF TextPad 0.3.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 0.3 Beta</strong></font></a><br>
-    <div id="tp03about"><font face="Calibri">По некоторым причинами не удалось загрузить вторую версию TextPad+. В этой версии сменили иконку программы.</font></div>
+    <a class="Button" id="tp03" href="res\Setup WF TextPad 0.3.exe" target="_blank" download="">Скачать WF TextPad 0.3 Beta</a>
+    <div class="VersionDescription" id="tp03about">По некоторым причинами не удалось загрузить вторую версию WF TextPad. В этой версии сменили иконку программы.</div>
 
-    <a id="tp04" href="res\Setup WF TextPad 0.4.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 0.4 Beta</strong></font></a><br>
-    <div id="tp04about"><font face="Calibri">Исправление ошибок, Добавлена возможность сменить рамку окна, Добавлена функция "Отменить"</font></div>
+    <a class="Button" id="tp04" href="res\Setup WF TextPad 0.4.exe" target="_blank" download="">Скачать WF TextPad 0.4 Beta</a>
+    <div class="VersionDescription" id="tp04about">Исправление ошибок, добавлена возможность сменить рамку окна, добавлена функция "Отменить".</div>
 
-    <a id="tp05" href="res\Setup WF TextPad 0.5.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 0.5 Beta</strong></font></a><br>
-    <div id="tp05about"><font face="Calibri">Исправление ошибок, Добавлена функция "Вернуть", Добавлена возможность вставить дату, Добавлена возможность открыть новое окно.</font></div>
+    <a class="Button" id="tp05" href="res\Setup WF TextPad 0.5.exe" target="_blank" download="">Скачать WF TextPad 0.5 Beta</a>
+    <div class="VersionDescription" id="tp05about">Исправление ошибок, добавлена функция "Вернуть", добавлена возможность вставить дату, добавлена возможность открыть новое окно.</div>
 
-    <a id="tp06" href="res\Setup WF TextPad 0.6.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 0.6 Beta</strong></font></a><br>
-    <div id="tp06about"><font face="Calibri">Обновлено контекстное меню, Название файла выводится в заголовок окна, Добавлена возможность сохранить открытый файл, Строку состояния можно убрать.</font></div>
+    <a class="Button" id="tp06" href="res\Setup WF TextPad 0.6.exe" target="_blank" download="">Скачать WF TextPad 0.6 Beta</a>
+    <div class="VersionDescription" id="tp06about">Обновлено контекстное меню, добавлен вывод названия файла в заголовок окна, добавлена возможность сохранить открытый файл, добавлена возможность выключить строку состояния.</div>
 
-    <a id="tp07" href="res\Setup WF TextPad 0.7.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 0.7 Beta</strong></font></a><br>
-    <div id="tp07about"><font face="Calibri">Исправление ошибок, Добавлена функция вертикальная полоса прокрутки, Добавлены вкладки.</font></div>
+    <a class="Button" id="tp07" href="res\Setup WF TextPad 0.7.exe" target="_blank" download="">Скачать WF TextPad 0.7 Beta</a>
+    <div class="VersionDescription" id="tp07about">Добавлена вертикальная полоса прокрутки, реализованна плддержка вкладок, исправлены некоторые ошибки.</div>
 
-    <a id="tp08" href="res\Setup WF TextPad 0.8.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 0.8 Beta</strong></font></a><br>
-    <div id="tp08about"><font face="Calibri">Исправление ошибок, Добавлена панель инструментов, Добавлена возможность закрепить программу поверх других окон.</font></div>
+    <a class="Button" id="tp08" href="res\Setup WF TextPad 0.8.exe" target="_blank" download="">Скачать WF TextPad 0.8 Beta</a>
+    <div class="VersionDescription" id="tp08about">Добавлена панель инструментов, добавлена возможность закрепить программу поверх других окон, исправлены некоторые ошибки.</div>
 
-    <a id="tp09" href="res\Setup WF TextPad 0.9.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 0.9 Beta</strong></font></a><br>
-    <div id="tp09about"><font face="Calibri">Исправление ошибок, Название файла выводится в название вкладки, Добавлено меню отладочной информации.</font></div>
+    <a class="Button" id="tp09" href="res\Setup WF TextPad 0.9.exe" target="_blank" download="">Скачать WF TextPad 0.9 Beta</a>
+    <div class="VersionDescription" id="tp09about">Добавлен вывод название файла в заголовок вкладки, добавлено меню отладочной информации, исправлены некоторые ошибки.</div>
 
-    <a id="tp10" href="res\Setup WF TextPad 1.0.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 1.0 Release</strong></font></a><br>
-    <div id="tp10about"><font face="Calibri">Исправление ошибок, Релиз программы, Обновлено текстовое поле, Добавлена возможность запуска скриптов.</font></div>
+    <a class="Button" id="tp10" href="res\Setup WF TextPad 1.0.exe" target="_blank" download="">Скачать WF TextPad 1.0 Release</a>
+    <div class="VersionDescription" id="tp10about">Релиз программы. Обновлено текстовое поле, добавлена возможность запуска некоторых скриптов, исправлены некоторые ошибки</div>
 
-    <a id="tp11" href="res\Setup WF TextPad 1.1.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 1.1 Release</strong></font></a><br>
-    <div id="tp11about"><font face="Calibri">Добавлена система проверки обновлений, Обновлено меню "О программе", Добавлено сохранениие некоторых параметров пользователя (размер окна, видимость строки состояния и т.д.).</font></div>
+    <a class="Button" id="tp11" href="res\Setup WF TextPad 1.1.exe" target="_blank" download="">Скачать WF TextPad 1.1 Release</a>
+    <div class="VersionDescription" id="tp11about">Добавлена система проверки обновлений (beta функция), обновлено меню "О программе", добавлено сохранениие некоторых параметров пользователя (размер окна, видимость некоторых элементов и т.д.).</div>
 
-    <a id="tp12" href="res\Setup WF TextPad 1.2.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 1.2 Release</strong></font></a><br>
-    <div id="tp12about"><font face="Calibri">Исправление ошибок, Добавлена поддержка английского языка (English language support).</font></div>
+    <a class="Button" id="tp12" href="res\Setup WF TextPad 1.2.exe" target="_blank" download="">Скачать WF TextPad 1.2 Release</a>
+    <div class="VersionDescription" id="tp12about">Добавлена поддержка английского языка (Added English language support), исправление ошибок.</div>
 
-    <a id="tp13" href="res\Setup WF TextPad 1.3.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать WF TextPad 1.3 Release</strong></font></a><br>
-    <div id="tp13about"><font face="Calibri">Исправление ошибок.</font></div>
+    <a class="Button" id="tp13" href="res\Setup WF TextPad 1.3.exe" target="_blank" download="">Скачать WF TextPad 1.3 Release</a>
+    <div class="VersionDescription" id="tp13about">Исправление ошибок.</div>
 
-    <a id="tp14" href="res\Setup TextPad+ 1.4.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать TextPad+ 1.4 Release</strong></font></a><br>
-    <div id="tp14about"><font face="Calibri">Смена названия приложения, Смена библиотеки .NET Core 3.1 на .NET Core 5.0, Добавлен просмотрщик файловф.</font></div>
+    <a class="Button" id="tp14" href="res\Setup TextPad+ 1.4.exe" target="_blank" download="">Скачать TextPad+ 1.4 Release</a>
+    <div class="VersionDescription" id="tp14about">Смена названия приложения, переход с платформы .NET Core 3.1 на .NET 5, добавлен просмотрщик файлов (beta функция).</div>
 
-    <a id="tp15" href="res\Setup TextPad+ 1.5.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать TextPad+ 1.5 Release</strong></font></a><br>
-    <div id="tp15about"><font face="Calibri">Небольшие изменения, Добавлена поддержка файлов html, css и js.</font></div>
+    <a class="Button" id="tp15" href="res\Setup TextPad+ 1.5.exe" target="_blank" download="">Скачать TextPad+ 1.5 Release</a>
+    <div class="VersionDescription" id="tp15about">Небольшие исправления и улучшения.</div>
 
-    <a id="tp16" href="res\Setup TextPad+ 1.6.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать TextPad+ 1.6 Release</strong></font></a><br>
-    <div id="tp16about"><font face="Calibri">Добавлено окно с параметрами, теперь цвета применяются ко всем вкладкам.</font></div>
+    <a class="Button" id="tp16" href="res\Setup TextPad+ 1.6.exe" target="_blank" download="">Скачать TextPad+ 1.6 Release</a>
+    <div class="VersionDescription" id="tp16about">Добавлено окно с параметрами, теперь цвета применяются ко всем вкладкам.</div>
 
-    <a id="tp17" href="res\Setup TextPad+ 1.7.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать TextPad+ 1.7 Release</strong></font></a><br>
-    <div id="tp17about"><font face="Calibri">Изменена система обновления, добавлено логирование и убрано меню отладки.</font></div>
+    <a class="Button" id="tp17" href="res\Setup TextPad+ 1.7.exe" target="_blank" download="">Скачать TextPad+ 1.7 Release</a>
+    <div class="VersionDescription" id="tp17about">Переработана система обновления, добавлено логирование и убрано меню отладки.</div>
 
-    <a id="tp18" href="res\Setup TextPad+ 1.8.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать TextPad+ 1.8 Release</strong></font></a><br>
-    <div id="tp18about"><font face="Calibri">Убран просмоторщик файлов, исправление ошибок.</font></div>
+    <a class="Button" id="tp18" href="res\Setup TextPad+ 1.8.exe" target="_blank" download="">Скачать TextPad+ 1.8 Release</a>
+    <div class="VersionDescription" id="tp18about">Убран просмоторщик файлов, исправлены некоторые ошибки.</div>
 
-    <a id="tp19" href="res\Setup TextPad+ 1.9.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать TextPad+ 1.9 Release</strong></font></a><br>
-    <div id="tp19about"><font face="Calibri">Смена библиотеки на .NET 6.0, небольшие улучшения.</font></div>
+    <a class="Button" id="tp19" href="res\Setup TextPad+ 1.9.exe" target="_blank" download="">Скачать TextPad+ 1.9 Release</a>
+    <div class="VersionDescription" id="tp19about">Переход на платформу на .NET 6.0, теперь для работы требуется библиотека .NET 6 Desktop Runtime. Небольшие исправления.</div>
 
-    <a id="tp20" href="res\Setup TextPad+ 2.0.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать TextPad+ 2.0 Release</strong></font></a><br>
-    <div id="tp20about"><font face="Calibri">Добавлена функция переноса слов, улучшена система обновлений.</font></div>
+    <a class="Button" id="tp20" href="res\Setup TextPad+ 2.0.exe" target="_blank" download="">Скачать TextPad+ 2.0 Release</a>
+    <div class="VersionDescription" id="tp20about">Добавлена функция переноса слов, улучшена система обновлений.</div>
 
-    <a id="tp21" href="res\Setup TextPad+ 2.1.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать TextPad+ 2.1 Release</strong></font></a><br>
-    <div id="tp21about"><font face="Calibri">Переработана система установки обновлений, переработаны системы логирования и смены языка.</font></div>
+    <a class="Button" id="tp21" href="res\Setup TextPad+ 2.1.exe" target="_blank" download="">Скачать TextPad+ 2.1 Release</a>
+    <div class="VersionDescription" id="tp21about">Переработана система установки обновлений, переработаны системы логирования и смены языка.</div>
 
-    <a id="tp22" href="res\Setup TextPad+ 2.2.exe" target="_blank" download=""><font face="Calibri"><strong>Скачать TextPad+ 2.2 Release</strong></font></a><br>
-    <div id="tp22about"><font face="Calibri">Измененео текстовое поле для смены шрифтов, доработано окно поиска с новыми функциями, добавлены тёмная и белая темы.</font></div>
+    <a class="Button" id="tp22" href="res\Setup TextPad+ 2.2.exe" target="_blank" download="">Скачать TextPad+ 2.2 Release</a>
+    <div class="VersionDescription" id="tp22about">Измененео текстовое поле для смены шрифтов, доработано окно поиска с новыми функциями, добавлены тёмная и белая темы. Улучшен установщик обновлений. Для его работы переустановите программу.</div>
+ 
+    <a class="Button" id="tp221" href="res\Setup TextPad+ 2.2.1.exe" target="_blank" download="">Скачать TextPad+ 2.2.1 Release</a>
+    <div class="VersionDescription" id="tp221about">Исправлена ошибка функции "Сохранить" при наличии нескольких вкладок с текстом, исправлена ошибка, связанная с обнулением вкладок при создании новой, мелкие изменения и исправления.</div>
 </body>
 </html>
