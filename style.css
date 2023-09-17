@@ -1,61 +1,53 @@
 /* Основной стиль как для всей страницы, так и для отдельных крупных элементов */
-* {
-	margin: 0;
-	padding: 0;
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
+    position: relative;
     background-color: #5CDB95;
     height: 65px;
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #05386B;
 }
 
-body, html {
-    height: 100%;
+body{
     background-color: #EDF5E1;
 }
 
-footer {
-    background-color: #5CDB95;  
-    bottom: 100%;
-    width: 100%;
-
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 80px;
-}
-
-/*Стили для всех тегов <a>*/
-a {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/*Стили только для тегов класса Button*/
+/*Стили класса Button*/
 .Button{
     background-color: #209b72f6;
     color: #EDF5E1;
     font-weight: 500;
     padding: 11px;
-    margin: 5px;
-    opacity: 0.9;
+    opacity: 0.95;
     text-decoration: none;
+    outline-style: solid;
+    outline-width: 0.5px;
+    transition: 0.3s;
+    outline-color: #05386B;
+
     width: 235px;
 }
 .Button:hover{
     color: #e8fccb;
+    outline-color: #5CDB95;
+    transition: 0.3s;
 }
 .Button:active{
     color: #ffffff;
 }
 
-/*Стили для простых ссылок*/
+/*Стили для класса ссылки*/
 .link{
+    transition: 0.3s;
     color: #05386B;
 }
 .link:hover{
+    transition: 0.3s;
     color: #0e5caa;
 }
 .link:active{
@@ -67,326 +59,303 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18.5px;
     color: #0e5caa;
+    margin-left: 300px;
 }
 
 /* Стили для кнопок , расположенных в header'е */
 #SiteName{
+    text-decoration: none;
     position: absolute;
-    top: 0.5%;
+    font-size: 40px;
     left: 50%;
-    text-decoration: none;
+    top: 18%;
 }
-#Main{
+#MainPage{
     font-size: 28px;
     position: absolute;
-    top: 1.5%;
-    left: 35%;
-    text-decoration: underline;
+    left: 25%;
+    top: 20%;
 }
-#Downloads{
+#DownloadsPage{
     font-size: 28px;
     position: absolute;
-    top: 1.5%;
-    left: 65%;
-    text-decoration: none;
+    left: 75%;
+    top: 20%;
 }
 
 /* Стили основной страницы */
 #ProgramLogo{
     position: absolute;
-    top: 10%;
-    left: 1%;
+    margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 5px #888;
 }
 #Description{
     position: absolute;
-    top: 9%;
-    left: 5%;
     color: #05386B;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 21px;
-}
-#GitHubSource{
-    position: absolute;
-    top: 15%;
-    left: 75.4%;
-    font-size: 21px;
+    margin-left: 120px;
+    margin-top: 30px;
 }
 
 /* Кнопки */
 #tp01{
     position: absolute;
-    top: 20%;
-    left: 14px;
+    top: 190px;
+    margin-left: 30px;
 }
 #tp01about{
     position: absolute;
-    top: 21%; 
-    left: 15%;
+    top: 200px;
 }
 
 #tp03{ 
     position: absolute;
-    top: 25%;
-    left: 14px;
+    top: 240px;
+    margin-left: 30px;
 }
 #tp03about{
     position: absolute;
-    top: 26%;  
-    left: 15%;
+    top: 250px;  
 }
 
 #tp04{   
     position: absolute;
-    top: 30%;
-    left: 14px;
+    top: 290px;
+    margin-left: 30px;
 }
 #tp04about{
     position: absolute;
-    top: 31%;
-    left: 15%;
+    top: 300px;
 }
 
 #tp05{  
     position: absolute;
-    top: 35%;
-    left: 14px;
+    top: 340px;
+    margin-left: 30px;
 }
 #tp05about{
     position: absolute;
-    top: 36%;
-    left: 15%;
+    top: 350px;
 }
 
 #tp06{
     position: absolute;
-    top: 40%;
-    left: 14px;
+    top: 390px;
+    margin-left: 30px;
 }
 #tp06about{ 
     position: absolute;
-    top: 41%;   
-    left: 15%;
+    top: 390px;   
 }
 
 #tp07{
     position: absolute;
-    top: 45%;
-    left: 14px;
+    top: 440px;
+    margin-left: 30px;
 }
 #tp07about{  
     position: absolute;
-    top: 46%; 
-    left: 15%;
+    top: 450px; 
 }
 
 #tp08{
     position: absolute;
-    top: 50%;
-    left: 14px;
+    top: 490px;
+    margin-left: 30px;
     text-decoration: none;
 }
 #tp08about{
     position: absolute;
-    top: 51%;
-    left: 15%;
+    top: 500px;
 }
 
 #tp09{
     position: absolute;
-    top: 55%;
-    left: 14px;
+    top: 540px;
+    margin-left: 30px;
 }
 #tp09about{  
     position: absolute;
-    top: 56%;
-    left: 15%;
+    top: 550px;
 }
 
 #tp10{
     position: absolute;
-    top: 60%;
-    left: 14px;
+    top: 590px;
+    margin-left: 30px;
 }
 #tp10about{    
     position: absolute;
-    top: 61%;
-    left: 15%;
+    top: 600px;
 }
 
 #tp11{
     position: absolute;
-    top: 65%;
-    left: 14px;
+    top: 640px;
+    margin-left: 30px;
 }
 #tp11about{  
     position: absolute;
-    top: 65%;
-    left: 15%;
+    top: 640px;
 }
 
 #tp12{
     position: absolute;
-    top: 70%;
-    left: 14px;
+    top: 690px;
+    margin-left: 30px;
 }
 #tp12about{
     position: absolute;
-    top: 71%;
-    left: 15%;
+    top: 700px;
 }
 
 #tp13{
     position: absolute;
-    top: 75%;
-    left: 14px;
+    top: 740px;
+    margin-left: 30px;
 }
 #tp13about{ 
     position: absolute;
-    top: 76%;
-    left: 15%;
+    top: 750px;
 }
 
 #tp14{
     position: absolute;
-    top: 80%;
-    left: 14px;
+    top: 790px;
+    margin-left: 30px;
 }
 #tp14about{ 
     position: absolute;
-    top: 81%;
-    left: 15%;
+    top: 800px;
 }
 
 #tp15{
     position: absolute;
-    top: 85%;
-    left: 14px;
+    top: 840px;
+    margin-left: 30px;
 }
 #tp15about{  
     position: absolute;
-    top: 86%;
-    left: 15%;
+    top: 850px;
 }
 
 #tp16{
     position: absolute;
-    top: 90%;
-    left: 14px;
+    top: 890px;
+    margin-left: 30px;
 }
 #tp16about{
     position: absolute;
-    top: 91%;
-    left: 15%;
+    top: 900px;
 }
 
 #tp17{
     position: absolute;
-    top: 95%;
-    left: 14px;
+    top: 940px;
+    margin-left: 30px;
 }
 #tp17about{
     position: absolute;
-    top: 96%;
-    left: 15%;
+    top: 950px;
 }
 
 #tp18{
-    
     position: absolute;
-    top: 100%;
-    left: 14px;
+    top: 990px;
+    margin-left: 30px;
 }
 #tp18about{  
     position: absolute;
-    top: 101%;
-    left: 15%;
+    top: 1000px;
 }
 
 #tp19{
-    
     position: absolute;
-    top: 105%;
-    left: 14px;
+    top: 1040px;
+    margin-left: 30px;
 }
 #tp19about{   
     position: absolute;
-    top: 106%;
-    left: 15%;
+    top: 1050px;
 }
 
 #tp20{   
     position: absolute;
-    top: 110%;
-    left: 14px;
+    top: 1090px;
+    margin-left: 30px;
 }
 #tp20about{
     position: absolute;
-    top: 111%;
-    left: 15%;
+    top: 1100px;
 }
 
 #tp21{
     position: absolute;
-    top: 115%;
-    left: 14px;
+    top: 1140px;
+    margin-left: 30px;
 }
 #tp21about{
     position: absolute;
-    top: 116%;
-    left: 15%;
+    top: 1150px;
 }
 
 #tp22{
     position: absolute;
-    top: 120%;
-    left: 14px;
+    top: 1190px;
+    margin-left: 30px;
 }
 #tp22about{
     position: absolute;
-    top: 119.6%;
-    left: 15%;
+    top: 1190px;
 }
 
 #tp221{
     position: absolute;
-    top: 125%;
-    left: 14px;
+    top: 1240px;
+    margin-left: 30px;
 }
 #tp221about{
     position: absolute;
-    top: 125.3%;
-    left: 15%;
+    top: 1240px;
 }
 
 #tp230{
     position: absolute;
-    top: 130%;
-    left: 14px;
+    top: 1290px;
+    margin-left: 30px;
 }
 #tp230about{
     position: absolute;
-    top: 131.4%;
-    left: 15%;
+    top: 1300px;
 }
 
 #tp231{
     position: absolute;
-    top: 135%;
-    left: 14px;
+    top: 1340px;
+    margin-left: 30px;
 }
 #tp231about{
     position: absolute;
-    top: 136.4%;
-    left: 15%;
+    top: 1350px;
 }
 
 #tp240{
     position: absolute;
-    top: 140%;
-    left: 14px;
+    top: 1390px;
+    margin-left: 30px;
 }
 #tp240about{
     position: absolute;
-    top: 141.4%;
-    left: 15%;
+    top: 1400px;
+}
+
+#tp250{
+    position: absolute;
+    top: 1440px;
+    margin-left: 30px;
+}
+#tp250about{
+    position: absolute;
+    top: 1450px;
 }
