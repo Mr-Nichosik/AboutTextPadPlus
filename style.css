@@ -11,6 +11,9 @@ header {
     background-color: #5CDB95;
     height: 65px;
     color: #05386B;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #05386B;
 }
 
 body{
@@ -29,7 +32,7 @@ body{
     outline-width: 0.5px;
     transition: 0.3s;
     outline-color: #05386B;
-
+    box-shadow: 2px 2px 5px #888;
     width: 235px;
 }
 .Button:hover{
@@ -358,4 +361,14 @@ body{
 #tp250about{
     position: absolute;
     top: 1450px;
+}
+
+#tp260{
+    position: absolute;
+    top: 1490px;
+    margin-left: 30px;
+}
+#tp260about{
+    position: absolute;
+    top: 1500px;
 }
