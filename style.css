@@ -9,8 +9,9 @@
 header {
     position: relative;
     background-color: #5CDB95;
-    height: 65px;
     color: #05386B;
+    height: 65px;
+    width: 100%;
     outline-style: solid;
     outline-width: 2px;
     outline-color: #05386B;
@@ -87,11 +88,17 @@ body{
 }
 
 /* Стили основной страницы */
+
+/*Стили для описания и логотипа*/
 #ProgramLogo{
     position: absolute;
     margin-left: 30px;
     margin-top: 30px;
     box-shadow: 2px 2px 5px #888;
+    transition: 0.4s;
+}
+#ProgramLogo:hover{
+    transform: scale(1.07);
 }
 #Description{
     position: absolute;
@@ -371,4 +378,14 @@ body{
 #tp260about{
     position: absolute;
     top: 1500px;
+}
+
+#tp261{
+    position: absolute;
+    top: 1540px;
+    margin-left: 30px;
+}
+#tp261about{
+    position: absolute;
+    top: 1550px;
 }
